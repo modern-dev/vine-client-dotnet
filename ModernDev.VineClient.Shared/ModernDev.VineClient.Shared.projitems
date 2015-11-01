@@ -9,5 +9,10 @@
     <Import_RootNamespace>ModernDev.VineClient</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Interfaces\IVineModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Loops.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\RecordsList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Response.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VineClient.cs" />
   </ItemGroup>
 </Project>
