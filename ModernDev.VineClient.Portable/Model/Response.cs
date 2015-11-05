@@ -10,27 +10,38 @@
  * Licensed under the GPLv3 license.
  */
 
+using System.Diagnostics;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
 
 namespace ModernDev.VineClient
 {
-    public class Response<T> : IVineModel where T : IVineModel
+    [DataContract]
+    [DebuggerDisplay("Response")]
+    public class Response<T>
     {
+        public Response(string code, T data, bool success, string error)
+        {
+            Code = code;
+            Data = data;
+            Success = success;
+            Error = error;
+        }
+
         [DataMember]
         [JsonProperty("code")]
-        public string Code { get; set; }
+        public string Code { get; private set; }
 
         [DataMember]
         [JsonProperty("data")]
-        public T Data { get; set; }
+        public T Data { get; private set; }
 
         [DataMember]
         [JsonProperty("success")]
-        public bool Success { get; set; }
+        public bool Success { get; private set; }
 
         [DataMember]
         [JsonProperty("error")]
-        public string Error { get; set; }
+        public string Error { get; private set; }
     }
 }
