@@ -10,7 +10,6 @@
  * Licensed under the GPLv3 license.
  */
 
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.Serialization;
 using Newtonsoft.Json;
@@ -19,12 +18,8 @@ namespace ModernDev.VineClient
 {
     [DataContract]
     [DebuggerDisplay("User {UserName}")]
-    public class User
+    public class User : VineItem
     {
-        [DataMember]
-        [JsonProperty("username")]
-        public string UserName { get; set; }
-
         [DataMember]
         [JsonProperty("twitterScreenname")]
         public string TwitterScreenName { get; set; }
@@ -34,32 +29,12 @@ namespace ModernDev.VineClient
         public int FollowerCount { get; set; }
 
         [DataMember]
-        [JsonProperty("verified")]
-        public bool Verified { get; set; }
-
-        [DataMember]
-        [JsonProperty("vanityUrls")]
-        public List<string> VanityUrls { get; set; }
-
-        [DataMember]
         [JsonProperty("loopCount")]
         public long LoopCount { get; set; }
 
         [DataMember]
-        [JsonProperty("avatarUrl")]
-        public string AvatarUrl { get; set; }
-
-        [DataMember]
         [JsonProperty("twitterVerified")]
         public bool TwitterVerified { get; set; }
-
-        [DataMember]
-        [JsonProperty("userId")]
-        public long UserId { get; set; }
-
-        [DataMember]
-        [JsonProperty("profileBackground")]
-        public string ProfileBackground { get; set; }
 
         [DataMember]
         [JsonProperty("location")]
@@ -67,6 +42,22 @@ namespace ModernDev.VineClient
 
         [DataMember]
         [JsonProperty("user")]
-        public UserSettings UserSettings { get; set; }
+        public User UserData { get; set; }
+
+        [DataMember]
+        [JsonProperty("description")]
+        public string Description { get; set; }
+
+        [DataMember]
+        [JsonProperty("notPorn")]
+        public bool NotPorn { get; set; }
+
+        [DataMember]
+        [JsonProperty("hideFromPopular")]
+        public bool HideFromPopular { get; set; }
+
+        [DataMember]
+        [JsonProperty("unflaggable")]
+        public bool Unflaggable { get; set; }
     }
 }
