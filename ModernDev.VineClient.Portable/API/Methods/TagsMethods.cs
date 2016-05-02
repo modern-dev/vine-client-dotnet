@@ -12,7 +12,7 @@
 
 using System.Threading.Tasks;
 
-namespace ModernDev.VineClient
+namespace ModernDev.VineClient.API.Methods
 {
     /// <summary>
     /// A base class for working with tags.

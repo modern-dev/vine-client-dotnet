@@ -12,7 +12,7 @@
 
 using System.Threading.Tasks;
 
-namespace ModernDev.VineClient
+namespace ModernDev.VineClient.API
 {
     public class MethodsGroup
     {
@@ -27,6 +27,7 @@ namespace ModernDev.VineClient
 
         internal async Task<Response<T>> Request<T>(string methodName, string reqType = "get",
             MethodParams methodParams = null)
-            => await _apiClient.Request<T>($"{_methodsGroup}/{methodName}", reqType, methodParams);
+            => await _apiClient.Request<T>(_methodsGroup + (string.IsNullOrEmpty(methodName) ? "" : "/" + methodName),
+                reqType, methodParams);
     }
 }

@@ -12,8 +12,9 @@
 
 using System;
 using System.Collections.Generic;
+using ModernDev.VineClient.API.Exceptions;
 
-namespace ModernDev.VineClient
+namespace ModernDev.VineClient.API
 {
     internal class MethodParams : List<Tuple<string, object, bool>>
     {

@@ -12,7 +12,7 @@
 
 using System;
 
-namespace ModernDev.VineClient
+namespace ModernDev.VineClient.API.Exceptions
 {
     public class VineClientException : Exception
     {
