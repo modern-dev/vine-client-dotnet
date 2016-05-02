@@ -52,5 +52,9 @@ namespace ModernDev.VineClient
         [DataMember]
         [JsonProperty("size")]
         public int Size { get; set; }
+
+        [DataMember]
+        [JsonProperty("channel")]
+        public Channel Channel { get; set; }
     }
 }
