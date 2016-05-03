@@ -17,11 +17,11 @@ using Newtonsoft.Json;
 namespace ModernDev.VineClient
 {
     [DataContract]
-    [DebuggerDisplay("UserSettings {Private}")]
-    public class UserSettings
+    [DebuggerDisplay("Repost {UserName}")]
+    public class Repost : Post
     {
         [DataMember]
-        [JsonProperty("private")]
-        public bool Private { get; set; }
+        [JsonProperty("repostId")]
+        public long RepostId { get; set; }
     }
 }
