@@ -24,7 +24,7 @@ namespace ModernDev.VineClient
         {
             Code = code;
             Data = data;
-            Success = success;
+            IsSuccess = success;
             Error = error;
         }
 
@@ -38,7 +38,7 @@ namespace ModernDev.VineClient
 
         [DataMember]
         [JsonProperty("success")]
-        public bool Success { get; private set; }
+        public bool IsSuccess { get; private set; }
 
         [DataMember]
         [JsonProperty("error")]
