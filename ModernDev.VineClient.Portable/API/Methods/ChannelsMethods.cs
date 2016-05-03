@@ -14,6 +14,9 @@ using System.Threading.Tasks;
 
 namespace ModernDev.VineClient
 {
+    /// <summary>
+    /// A base class for working with channels.
+    /// </summary>
     public sealed class ChannelsMethods : MethodsGroup
     {
         internal ChannelsMethods(VineClient apiClient) : base(apiClient, "channels")
