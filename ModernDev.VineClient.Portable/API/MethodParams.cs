@@ -16,7 +16,7 @@ using ModernDev.VineClient.API.Exceptions;
 
 namespace ModernDev.VineClient.API
 {
-    internal class MethodParams : List<Tuple<string, object, bool>>
+    public class MethodParams : List<Tuple<string, object, bool>>
     {
         public Dictionary<string, string> GetParams()
         {
