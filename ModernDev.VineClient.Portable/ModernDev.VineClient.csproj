@@ -24,6 +24,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\ModernDev.VineClient.XML</DocumentationFile>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -34,19 +36,33 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="API\MethodParams.cs" />
+    <Compile Include="API\MethodsGroup.cs" />
+    <Compile Include="API\Methods\ChannelsMethods.cs" />
+    <Compile Include="Model\Channel.cs" />
     <Compile Include="Model\ClientFlags.cs" />
+    <Compile Include="Model\Comment.cs" />
     <Compile Include="Model\Empty.cs" />
+    <Compile Include="Model\Entity.cs" />
     <Compile Include="Model\Interfaces\IVineModel.cs" />
+    <Compile Include="Model\Like.cs" />
     <Compile Include="Model\Loops.cs" />
+    <Compile Include="Model\Notification.cs" />
+    <Compile Include="Model\Post.cs" />
     <Compile Include="Model\RecordsList.cs" />
+    <Compile Include="Model\Repost.cs" />
     <Compile Include="Model\Response.cs" />
     <Compile Include="API\Helpers\PrivateResolver.cs" />
+    <Compile Include="API\Methods\PostsMethods.cs" />
+    <Compile Include="Model\VineItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\Session.cs" />
     <Compile Include="API\Helpers\Utils.cs" />
     <Compile Include="Model\User.cs" />
-    <Compile Include="Model\UserSettings.cs" />
     <Compile Include="Model\Tag.cs" />
+    <Compile Include="API\Methods\TagsMethods.cs" />
+    <Compile Include="API\Methods\TimelinesMethods.cs" />
+    <Compile Include="API\Methods\UsersMethods.cs" />
     <Compile Include="VineClient.cs" />
     <Compile Include="API\Exceptions\VineClientException.cs" />
   </ItemGroup>
