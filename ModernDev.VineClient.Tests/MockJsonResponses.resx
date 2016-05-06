@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="authResponse" xml:space="preserve">
+    <value>{"code":"","data":{"username":"virtyaluk","avatarUrl":"http://v.cdn.vine.co/avatars/default.png","clientFlags":{"findPeopleTabs":["suggested","twitter","facebook","contacts"],"alwaysShowTimeInFeed":1,"shouldRenux":1,"nuxHideFriendsFinder":0,"useHeartIcons":1,"followSuggestionsSelectAll":1,"canShareToFacebookProfileVideo":1,"followSuggestions":1,"showDiscoverFeedCard":0,"audioNumChannels":2,"audioRemix":1,"profile_sorting":1,"similarPosts":1,"scribeEnabled":1,"disableContactsTwitterPrompt":1,"useDigitsForPhoneVerification":0,"nuxHideChannelPicker":0,"welcomeFeedExitUrl":"vine://home","showFullScreenFeedCards":0,"show_custom_rating_view":1,"nuxShowWelcomeFeed":1,"pinchZoomEnabled":1,"audioUploadBitrate":128000,"wideFoVEnabled":1,"channelsSelectAll":1,"showDeleteCommentsInComplaints":1,"canSortLikesInProfile":1,"maxContentCacheSize":104857600,"sectionedSearch":1,"disableMuteSwitchOnVolumeChanged":1,"canViewPostSources":1},"userId":1186873486791114752,"edition":"US","key":"1186873486791114752-213fc8dd-abcd-4a27-1234-5cfdc9887cb1"},"success":true,"error":""}</value>
+  </data>
+  <data name="channelRecordsList" xml:space="preserve">
+    <value>{"code":"","data":{"count":17,"records":[{"featuredChannelId":1337983201704087552,"channelId":1337934322912907264,"showRecent":1,"iconUrl":"/static/api/collections_icon.png","fontColor":"ffffff","event":0,"exploreName":"bath bombs","exploreIconFullUrl":"","backgroundImageUrl":"https://vines.s3.amazonaws.com/static/api/watermleon.gif","vanityUrl":"bath-bombs","priority":301,"exploreRetinaIconFullUrl":"http://v.cdn.vine.co/static/api/collections_retinaexplore.png","backgroundColor":"FF7AAE","channel":"bath bombs","description":null,"iconFullUrl":"http://v.cdn.vine.co/static/api/collections_icon.png","editionCode":"US","retinaIconFullUrl":"http://v.cdn.vine.co/static/api/collections_retinaicon.png","exploreRetinaIconUrl":"/static/api/collections_retinaexplore.png","retinaIconUrl":"/static/api/collections_retinaicon.png","splashTimelineId":0,"secondaryColor":"","exploreIconUrl":""},{"featuredChannelId":1310767203330785280,"channelId":1,"showRecent":1,"iconUrl":"/static/api/Comedy.png","fontColor":"ffffff","event":0,"exploreName":"Comedy","exploreIconFullUrl":"https://vine.co/static/images/channels_v2/Comedy_trans@2x.png","vanityUrl":"comedy","priority":302,"splashTimelineId":0,"backgroundColor":"ff5867","channel":"Comedy","description":null,"iconFullUrl":"http://v.cdn.vine.co/static/api/Comedy.png","editionCode":"US","retinaIconFullUrl":"http://v.cdn.vine.co/static/api/Comedy@2x.png","exploreRetinaIconUrl":"/static/api/Comedy_trans@2x.png","retinaIconUrl":"/static/api/Comedy@2x.png","exploreRetinaIconFullUrl":"http://v.cdn.vine.co/static/api/Comedy_trans@2x.png","secondaryColor":"","exploreIconUrl":"/static/images/channels_v2/Comedy_trans@2x.png"}],"previousPage":null,"anchor":null,"nextPage":null,"size":20},"success":true,"error":""}</value>
+  </data>
+  <data name="commentResponse" xml:space="preserve">
+    <value>{"code":"","data":{"username":"Graham Alston","comment":"song?","verified":0,"vanityUrls":[],"created":"2016-05-02T03:19:02.000000","userId":985402855928315904,"profileBackground":"0x7870cc","entities":[],"user":{"username":"Graham Alston","verified":0,"description":"","twitterVerified":0,"avatarUrl":"http://v.cdn.vine.co/avatars/default.png","notPorn":0,"userId":985402855928315904,"profileBackground":"0x7870cc","hideFromPopular":0,"private":0,"location":"","unflaggable":0,"vanityUrls":[]},"commentId":1338758624096485376,"postId":1297595204597354496},"success":true,"error":""}</value>
+  </data>
+  <data name="emptyResponse" xml:space="preserve">
+    <value>{"code": "", "data": {}, "success": true, "error": ""}</value>
+  </data>
+  <data name="likeResponse" xml:space="preserve">
+    <value>{"code":"","data":{"username":"JustMiso","verified":0,"vanityUrls":[],"created":"2016-05-02T04:09:07.000000","userId":1338770960601493504,"user":{"private":0},"likeId":1338771225023283200},"success":true,"error":""}</value>
+  </data>
+  <data name="notificationsCount" xml:space="preserve">
+    <value>{"code": "", "data": 2, "success": true, "error": ""}</value>
+  </data>
+  <data name="notificationsRecordsList" xml:space="preserve">
+    <value>{"code":"","data":{"count":0,"anchorStr":"","records":[{"body":"Scuuuuh is now following you","displayUserId":1269274583891419136,"verified":0,"followRequested":false,"created":"2016-05-03T05:43:23.000000","following":false,"userId":1269274583891419136,"avatarUrl":"http://v.cdn.vine.co/r/avatars/6357F7BC691303290238076354560_4b4c99317ab.5.1.jpg?versionId=6TmVDDrMBl82LvgbMvIdsV2DNXpPB9cx","notificationTypeId":1,"private":0,"entities":[{"type":"user","range":[0,7],"link":"vine://user-id/1269274583891419136","id":1269274583891419136,"title":"Scuuuuh"}],"recipientUserId":1186873486791114752,"notificationId":1339157125557506048,"displayAvatarUrl":"http://v.cdn.vine.co/r/avatars/6357F7BC691303290238076354560_4b4c99317ab.5.1.jpg?versionId=6TmVDDrMBl82LvgbMvIdsV2DNXpPB9cx"},{"body":"tritin is now following you","displayUserId":1268860951323635712,"verified":0,"followRequested":false,"created":"2016-05-03T05:42:33.000000","following":false,"userId":1268860951323635712,"avatarUrl":"http://v.cdn.vine.co/r/avatars/5BF3A1F0561269228579766882304_4e9c6e41b4f.2.0.jpg?versionId=nEXmVRDsD2hCFSEXCuJGml4x.xc83Ygb","notificationTypeId":1,"private":0,"entities":[{"type":"user","range":[0,6],"link":"vine://user-id/1268860951323635712","id":1268860951323635712,"title":"tritin"}],"recipientUserId":1186873486791114752,"notificationId":1339157125557506048,"displayAvatarUrl":"http://v.cdn.vine.co/r/avatars/5BF3A1F0561269228579766882304_4e9c6e41b4f.2.0.jpg?versionId=nEXmVRDsD2hCFSEXCuJGml4x.xc83Ygb"}],"previousPage":null,"backAnchor":"","anchor":null,"nextPage":null,"size":20},"success":true,"error":""}</value>
+  </data>
+  <data name="postsRecordsList" xml:space="preserve">
+    <value>{"code":"","data":{"count":1,"anchorStr":"","records":[{"promoted":1,"liked":0,"videoDashUrl":"http://v.cdn.vine.co/r/videos_dashhd/04E9C9E3891297595087265677312_4f8b7ff5700.5.1.6484865023185249813.mp4?versionId=FA_fgBHu32k1Fg_A_ROhuI6NBAXagdL0","foursquareVenueId":"","userId":980422881370669056,"private":0,"videoWebmUrl":null,"loops":{"count":57120468.0,"velocity":3.9173333333333336,"onFire":0},"thumbnailUrl":"http://v.cdn.vine.co/r/videos/04E9C9E3891297595087265677312_4f8b7ff5700.5.1.6484865023185249813.mp4.jpg?versionId=h2QsycHDZZsAkmq.ppOkfrLDeoPrYF0x","explicitContent":0,"blocked":0,"verified":1,"avatarUrl":"http://v.cdn.vine.co/r/avatars/DAB758C0B6980508458338111488_1d39f0646e7.3.1_27BHkDm8CaDfWayIL4okusAIG7bwUvRO_ucn8gPZnfzH_voCYuwsTMpLgN3fKxyq.jpg?versionId=m3DqGj8V2YBZFO_o7lhLY1F.oSZMKStp","comments":{"count":30539,"anchorStr":"1338758624096485376","records":[{"username":"Graham Alston","comment":"song?","verified":0,"vanityUrls":[],"created":"2016-05-02T03:19:02.000000","userId":985402855928315904,"profileBackground":"0x7870cc","entities":[],"user":{"username":"Graham Alston","verified":0,"description":"","twitterVerified":0,"avatarUrl":"http://v.cdn.vine.co/avatars/default.png","notPorn":0,"userId":985402855928315904,"profileBackground":"0x7870cc","hideFromPopular":0,"private":0,"location":"","unflaggable":0,"vanityUrls":[]},"commentId":1338758624096485376,"postId":1297595204597354496},{"username":"Danielnonlasco415@gemail.net","comment":"This Chinese girl f-uckn weird","verified":0,"vanityUrls":[],"created":"2016-05-02T03:23:30.000000","userId":1315424526225825792,"entities":[],"user":{"username":"Danielnonlasco415@gemail.net","verified":0,"vanityUrls":[],"twitterVerified":0,"avatarUrl":"http://v.cdn.vine.co/r/avatars/9D147901D91315424531392913408_435c70517f2.5.1.jpg?versionId=b_T1QbtMzrn2r3wavgI2Sy_8LuXAkj2D","notPorn":0,"userId":1315424526225825792,"private":0,"hideFromPopular":0,"location":null,"unflaggable":0,"description":""},"commentId":1338759744432861184,"postId":1297595204597354496}],"previousPage":null,"backAnchor":"","anchor":1338758624096485376,"nextPage":2,"size":3},"entities":[],"videoLowURL":"http://v.cdn.vine.co/r/videos_r2/04E9C9E3891297595087265677312_4f8b7ff5700.5.1.6484865023185249813.mp4?versionId=F_ZIAoLt4W_o_VyhCpEuj5XbSJDkCKWX","vanityUrls":[],"username":"hemtube 햄튜브","description":"가끔은 고양이와 춤을 춥시다","tags":[],"permalinkUrl":"https://vine.co/v/ih0rU2z62BK","hasRemixes":1,"postId":1297595204597354496,"profileBackground":"0x68bf60","videoUrl":"http://v.cdn.vine.co/r/videos/04E9C9E3891297595087265677312_4f8b7ff5700.5.1.6484865023185249813.mp4?versionId=IROehefXxTSJEAY_pp.t_McD3vn7QkaI","followRequested":0,"created":"2016-01-09T13:10:18.000000","hasSimilarPosts":1,"shareUrl":"https://vine.co/v/ih0rU2z62BK","myRepostId":0,"following":0,"reposts":{"count":122866,"anchorStr":"","records":[],"previousPage":null,"backAnchor":"","anchor":null,"nextPage":null,"size":0},"likes":{"count":342814,"anchorStr":"1338771225023283200","records":[{"username":"JustMiso","verified":0,"vanityUrls":[],"created":"2016-05-02T04:09:07.000000","userId":1338770960601493504,"user":{"private":0},"likeId":1338771225023283200},{"username":"Kaidence","verified":0,"vanityUrls":[],"created":"2016-05-02T04:09:45.000000","userId":1338729309426401280,"user":{"private":0},"likeId":1338771384972808192}],"previousPage":null,"backAnchor":"","anchor":1338771225023283200,"nextPage":2,"size":10}}],"previousPage":null,"backAnchor":"","anchor":null,"nextPage":null,"size":20},"success":true,"error":""}</value>
+  </data>
+  <data name="repostResponse" xml:space="preserve">
+    <value>{"code":"","data":{"created":"2016-05-02T03:19:02.000000","repostId":1297595204597354496,"postId":1297595204597354496},"success":true,"error":""}</value>
+  </data>
+  <data name="responseError" xml:space="preserve">
+    <value>{"code": 900, "data": "", "success": false, "error": "That record does not exist."}</value>
+  </data>
+  <data name="tagsRecordsList" xml:space="preserve">
+    <value>{"code":"","data":{"count":0,"anchorStr":"","records":[{"deleted":null,"tagId":1301468743066816512,"tag":"runningmanchallenge","created":"2016-01-20T05:42:22.000000"},{"deleted":null,"tagId":953960899004395520,"tag":"WWEPayback","created":"2013-06-05T07:10:16.000000"},{"deleted":null,"tagId":906545578899681280,"tag":"BTS","created":"2013-01-25T10:58:43.000000"}],"previousPage":null,"backAnchor":"","anchor":null,"nextPage":null,"size":20},"success":true,"error":""}</value>
+  </data>
+  <data name="userResponse" xml:space="preserve">
+    <value>{"code":"","data":{"username":"Graham Alston","comment":"song?","verified":0,"vanityUrls":[],"created":"2016-05-02T03:19:02.000000","userId":985402855928315904,"profileBackground":"0x7870cc","entities":[],"user":{"username":"Graham Alston","verified":0,"description":"","twitterVerified":0,"avatarUrl":"http://v.cdn.vine.co/avatars/default.png","notPorn":0,"userId":985402855928315904,"profileBackground":"0x7870cc","hideFromPopular":0,"private":0,"location":"","unflaggable":0,"vanityUrls":[]},"commentId":1338758624096485376,"postId":1297595204597354496},"success":true,"error":""}</value>
+  </data>
+  <data name="usersRecordsList" xml:space="preserve">
+    <value>{"code":"","data":{"count":44045,"records":[{"username":"Alison Brie","twitterScreenname":"alisonbrie","followerCount":109779,"verified":1,"vanityUrls":[],"loopCount":1910877,"avatarUrl":"http://v.cdn.vine.co/v/avatars/B9CAC78F-E17B-4CE2-8326-2FDE69D35DFF-11245-000005A6A23F9D2F.jpg?versionId=UqqDiWT7daIJBzfVrbBGLbkv7_Xm0cmD","twitterVerified":1,"userId":951265490817449984,"profileBackground":"0xffaf40","user":{"private":0},"location":"Los Angeles"},{"username":"Alison Sweeney","twitterScreenname":"Ali_Sweeney","followerCount":21720,"verified":1,"vanityUrls":[],"loopCount":23307,"avatarUrl":"http://v.cdn.vine.co/r/avatars/BEA4E2CF-5E9C-4D25-BE4D-B1B2131DCEFF-570-0000001C7A133B10fd751d32d6.jpg?versionId=LReWbftKfp6JEC5sx06HdtQPuq6XMobO","twitterVerified":1,"userId":947938830999281664,"profileBackground":"0xff5967","user":{"private":0},"location":"LA"}],"nextPage":2,"anchor":"20","previousPage":null,"size":20},"success":true,"error":""}</value>
+  </data>
+</root>
