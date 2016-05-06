@@ -19,10 +19,5 @@ namespace ModernDev.VineClient.API.Exceptions
         public object Detail { get; private set; }
         public VineClientException(string message) : base(message) { }
         public VineClientException(string message, Exception innerException) : base(message, innerException) { }
-
-        public VineClientException(string message, object detail) : base(message)
-        {
-            Detail = detail;
-        }
     }
 }
