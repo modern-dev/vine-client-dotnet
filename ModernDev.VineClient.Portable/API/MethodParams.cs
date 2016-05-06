@@ -24,7 +24,7 @@ namespace ModernDev.VineClient.API
 
             foreach (var seq in this)
             {
-                string actualVal;
+                var actualVal = "";
 
                 if (seq.Item3 && seq.Item2 == null)
                 {
@@ -33,11 +33,11 @@ namespace ModernDev.VineClient.API
 
                 if (seq.Item2 is bool)
                 {
-                    actualVal = seq.Item3 ? "1" : "0";
+                    actualVal = (bool) seq.Item2 ? "1" : "0";
                 }
-                else
+                else if (seq.Item2 != null)
                 {
-                    actualVal = seq.ToString();
+                    actualVal = seq.Item2.ToString();
                 }
 
                 prms.Add(seq.Item1, actualVal);
