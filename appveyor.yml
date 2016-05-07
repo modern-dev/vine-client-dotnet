@@ -8,8 +8,7 @@ assembly_info:
   assembly_version: '{version}'
   assembly_file_version: '{version}'
   assembly_informational_version: '{version}'
-  
-  
+
 build:
   publish_nuget: true
   parallel: true
@@ -27,3 +26,10 @@ deploy:
 after_build:
   - nuget pack VineClient.nuspec -version %APPVEYOR_BUILD_VERSION%
   - appveyor PushArtifact VineClient.%APPVEYOR_BUILD_VERSION%.nupkg
+
+notifications:
+- provider: Webhook
+  url: https://webhooks.gitter.im/e/e16993b457c1c854f72d
+  on_build_success: true
+  on_build_failure: true
+  on_build_status_changed: true
