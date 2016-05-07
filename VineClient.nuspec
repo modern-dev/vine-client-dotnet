@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>ModernDev.InTouch</id>
+    <id>VineClient</id>
     <version>1.0.0</version>
     <title>VineClient</title>
     <authors>Bohdan Shtepan</authors>
