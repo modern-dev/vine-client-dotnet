@@ -7,7 +7,7 @@
     <authors>Bohdan Shtepan</authors>
     <owners>Bohdan Shtepan</owners>
     <licenseUrl>https://github.com/modern-dev/VineClient/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/modern-dev/InTouch</projectUrl>
+    <projectUrl>https://github.com/modern-dev/VineClient</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>VineClient - is an unofficial C# library for the Vine.</description>
     <copyright>Copyright 2016 Bohdan Shtepan</copyright>
