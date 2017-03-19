@@ -13,12 +13,17 @@
     <copyright>Copyright 2016 Bohdan Shtepan</copyright>
     <tags>vine api vine.co wrapper</tags>
 	<dependencies>
-		<dependency id="Newtonsoft.Json" version="8.0.3" />
+		<group targetFramework="netstandard1.1">
+			<dependency id="Newtonsoft.Json" version="9.0.1" />
+			<dependency id="NETStandard.Library" version="1.6.1" />
+			<dependency id="Microsoft.NETCore.Portable.Compatibility" version="1.0.1" />
+		</group>
 	</dependencies>
 	
   </metadata>
   <files>
-    <file src="ModernDev.VineClient.Portable\bin\Release\ModernDev.VineClient.dll" target="lib\portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1" />
+    <file src="ModernDev.VineClient.Portable\bin\Release\ModernDev.VineClient.dll" target="lib\netstandard1.1\ModernDev.VineClient.dll" />
+	<file src="ModernDev.VineClient.Portable\bin\Release\ModernDev.VineClient.XML" target="lib\netstandard1.1\ModernDev.VineClient.XML" />
   </files>
 
 </package>
