@@ -1,6 +1,6 @@
 <h1 align="center"><img width="200" src="media/logo.png" alt="InTouch logo" style="clear: right;"><br/><br/></h1>
 
-[![Build status](https://ci.appveyor.com/api/projects/status/kwhrau8wsj59hy99?svg=true)](https://ci.appveyor.com/project/virtyaluk/vine-client-dotnet) [![NuGet](https://img.shields.io/nuget/v/VineClient.svg?maxAge=7200)](https://www.nuget.org/packages/VineClient/) [![Join the chat at https://gitter.im/modern-dev/vine-client-dotnet](https://badges.gitter.im/modern-dev/vine-client-dotnet.svg)](https://gitter.im/modern-dev/vine-client-dotnet?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build status](https://ci.appveyor.com/api/projects/status/kwhrau8wsj59hy99?svg=true)](https://ci.appveyor.com/project/virtyaluk/vine-client-dotnet) [![NuGet](https://img.shields.io/nuget/v/VineClient.svg?maxAge=7200)](https://www.nuget.org/packages/VineClient/) [![Join the chat at https://gitter.im/modern-dev/vine-client-dotnet](https://badges.gitter.im/modern-dev/vine-client-dotnet.svg)](https://gitter.im/modern-dev/vine-client-dotnet?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) ![GitHub](https://img.shields.io/github/license/modern-dev/vine-client-dotnet)
 
 # VineClient for .NET
 
@@ -459,7 +459,7 @@ Response<RecordsList<User>> res = await client.Users.Search(query: "virtyaluk": 
 
 ## :green_book: Platform Support
 
-**InTouch** is compiled for .NET 4.5, as well a Portable Class Library (Profile 111) supporting:
+**VineClient** is compiled for .NET 4.5, as well a Portable Class Library (Profile 111) supporting:
  - .NET 4.5
  - ASP.NET Core 1.0
  - Windows 8
@@ -474,7 +474,7 @@ Based on the Vine API documentation by [**@neuegram**](https://github.com/neuegr
 
 [Licensed under the GPLv3 license.](https://github.com/modern-dev/vine-client-dotnet/blob/master/LICENSE)
 
-Copyright (c) 2016 Bohdan Shtepan
+Copyright (c) 2016-2020 Bohdan Shtepan
 
 ---
 
